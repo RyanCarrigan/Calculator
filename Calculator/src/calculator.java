@@ -39,6 +39,7 @@ public class calculator
 				asking();
 				System.out.println("The answer is " + Math.pow(userNumber1, userNumber2) + ".");
 				}
+			System.out.println("Good job. Hit run again to preform another calculation.");
 			}
 
 		public static void asking()
@@ -65,4 +66,5 @@ public class calculator
 			{
 			return x/y;
 			}
+
 	}
